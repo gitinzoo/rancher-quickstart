@@ -42,3 +42,4 @@ output "windows_password" {
 output "windows-workload-ips" {
   value = aws_instance.quickstart_node_win[*].public_ip
 }
+#this file need to fix ami of windows
